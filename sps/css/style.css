@@ -1,0 +1,140 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,900,300,900italic,400italic);
+
+body {
+font-family: 'Lato', sans-serif;
+}
+/*headercito*/
+.headersocial {
+	height: 58px;
+	font-style: italic;
+	font-size: 1.2em;
+	background-color: gray;
+	padding-top: 15px;
+}
+.social-logo {
+	margin-left: 50px;
+}
+.llamanos {
+	letter-spacing: 10px;
+}
+
+/*fin headercito*/
+
+
+
+/*estilos del menu*/
+.menunav {
+	background-color: #000000;
+	height: 100px;
+	padding-top: 25px;
+	border:none;
+	border-radius: 0px;
+	/*margin-top: 58px;*/
+}
+.logotipo{
+	padding-top: 0px;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 3px;
+}
+.navbar-default .navbar-nav>li>a:hover{
+	color: #C5C5C5;
+}
+.btn-amarillo {
+	background-color: #f9e323;
+	color: #4e4e4e;
+	text-transform: uppercase;
+	font-weight: 900;
+    letter-spacing: 4px;
+    margin-top: 5px;
+    border-radius: 0px;
+}
+
+.colorform {
+	background-color: #585858;
+	border-radius: 0px;
+	border-color: #000000;
+	color: #fff;
+	width: 144px;
+}
+
+.lupa {
+	font-size: 20px;
+	color: #f9e323;
+	padding-left: 5px;
+	margin-top: 9px;
+}
+/*fin estilos del menu*/
+
+/*inicio slider*/
+hr { 
+    display: inline-block;
+    width: 50%;
+	border-color: #f9e323;
+	color: #f9e323;
+	background-color: #f9e323;
+	height: 10px;
+}
+.jumbotron {
+	background-color: #fff;
+	font-size: 0.8em;
+
+}
+/*fin slider*/
+
+/*estilos la calidad*/
+#calidad {
+	background: #101010 no-repeat center/80%  url(../images/fondo-calidad.png);
+	height: 240px;
+	margin-top: -78px;
+}
+
+.textocalidad{
+	color: #fff;
+	font-weight: 300;
+	letter-spacing: 10px;
+	margin-left: 20px;
+}
+.textoamarillo {
+	color: #F9E323;
+	font-style: italic;
+	letter-spacing: 10px;
+	margin-left: 20px;
+}
+
+.imagencalidad,.textocalidad,.textoamarillo {
+	display: inline-block;
+}
+.centracalidad {
+	padding-top:90px;
+}
+/*fin estilos calidad*/
+
+/*estilos productos*/
+#productos {
+	margin-top: 30px;
+}
+#producto-tile {
+	height: 295px;
+	width: 100%;
+	margin-bottom: 15px;
+	overflow: hidden;
+	background: url(../images/producto.jpg) no-repeat;
+}
+
+#producto-tile span {
+	color: #fff;
+	position: absolute;
+	bottom: 15px;
+
+	width: 91%;
+	font-size: 1.6em;
+
+    text-transform: uppercase;
+    background-color: #343434;
+
+}
