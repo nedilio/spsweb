@@ -150,7 +150,8 @@ hr {
 	position: absolute;
 	bottom: 0px;
 	width: 100%;
-
+	letter-spacing: 5px;
+	font-weight: bold;
     text-transform: uppercase;
     padding-left: 15px;
     padding-bottom: 16px;
@@ -173,6 +174,33 @@ hr {
 
 /*inicio estilos lo nuevo*/
 .lonuevo {
-	background: #101010 no-repeat center/80%  url(../images/concierto,jpg/);
+	/*background: #101010 no-repeat center/80%  url(../images/concierto,jpg/);*/
 	height: 248px;
+	padding: 65px 15px;
+	background-image: url(../images/concierto.jpg);
+	margin-bottom: 30px;
+/*background: -moz-linear-gradient(top,  rgba(0,0,0,1) 0%, rgba(255,255,255,0) 100%); /* FF3.6-15 */
+/*background: -webkit-linear-gradient(top,  rgba(0,0,0,1) 0%,rgba(255,255,255,0) 100%); /* Chrome10-25,Safari5.1-6 */
+/*background: linear-gradient(to bottom,  rgba(0,0,0,1) 0%,rgba(255,255,255,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+/*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=0 ); /* IE6-9 */
 }
+.lonuevotext {
+	letter-spacing: 5px;
+}
+/*fin estilos lo nuevo*/
+
+/*inicio estilos de footer*/
+.footersocial {
+	background-color: #161616;
+	padding: 30px 0;
+	color: #fff;
+}
+.footersocial h2 small {
+	color: #fff;
+}
+
+.footerbajo {
+	background-color: #1d1f20;
+	padding: 30px 0;
+}
+/*fin estilos de footer*/
