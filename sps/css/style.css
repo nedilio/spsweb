@@ -20,8 +20,6 @@ font-family: 'Lato', sans-serif;
 
 /*fin headercito*/
 
-
-
 /*estilos del menu*/
 .menunav {
 	background-color: #000000;
@@ -121,20 +119,34 @@ hr {
 #producto-tile {
 	height: 295px;
 	width: 100%;
-	margin-bottom: 15px;
 	overflow: hidden;
-	background: url(../images/producto.jpg) no-repeat;
+	position: relative;
+	margin-bottom: 15px;
+
 }
 
 #producto-tile span {
 	color: #fff;
+	background-color: #343434;
 	position: absolute;
-	bottom: 15px;
-
-	width: 91%;
-	font-size: 1.6em;
-
+	bottom: 0px;
+	width: 100%;
+	/*font-size: 1.6em;*/
     text-transform: uppercase;
-    background-color: #343434;
+    padding-left: 15px;
+    height: 52px;
+    padding-top: 16px;
+}
 
+.cuadromas {
+	width: 52px;
+	height: 52px;
+	background-color: #F9E323;
+	font-size: 1.6em;
+	padding-top: 10px;
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+	z-index: 999;
+	color: #000;
 }
