@@ -85,7 +85,7 @@ hr {
 /*fin slider*/
 
 /*estilos la calidad*/
-#calidad {
+.calidad {
 	background: #101010 no-repeat center/80%  url(../images/fondo-calidad.png);
 	height: 240px;
 	margin-top: -78px;
@@ -113,10 +113,10 @@ hr {
 /*fin estilos calidad*/
 
 /*estilos productos*/
-#productos {
+.productos {
 	margin-top: 30px;
 }
-#producto-tile {
+.producto-tile {
 	height: 295px;
 	width: 100%;
 	overflow: hidden;
@@ -125,7 +125,7 @@ hr {
 
 }
 
-#producto-tile span {
+.producto-tile span {
 	color: #fff;
 	background-color: #343434;
 	position: absolute;
