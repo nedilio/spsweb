@@ -133,7 +133,7 @@ hr {
 
 /*estilos productos*/
 .productos {
-	margin-top: 30px;
+	margin: 30px auto;
 }
 .producto-tile {
 	/*height: 295px;*/
@@ -168,4 +168,11 @@ hr {
 	right: 0px;
 	z-index: 999;
 	color: #000;
+}
+/*fin estilos productos*/
+
+/*inicio estilos lo nuevo*/
+.lonuevo {
+	background: #101010 no-repeat center/80%  url(../images/concierto,jpg/);
+	height: 248px;
 }
