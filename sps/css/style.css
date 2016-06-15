@@ -7,10 +7,30 @@ font-family: 'Lato', sans-serif;
 .headersocial {
 	font-style: italic;
 	font-size: 1.2em;
-	background-color: gray;
-	padding-top: 17px;
-	padding-bottom: 18px;
+	background-color: #fff;
+	padding: 17px 0px;
 }
+.gray-aux {
+    position: absolute;
+    height: 13%; /*no se porqueee*/
+    width: 50%;
+    background-color: #585858;
+    right: 0;
+    top: 0;
+    width: 37%;
+}
+.gray-aux:before {
+    display: block;
+    content: '';
+    background: yellow;
+    height: 100%;
+    width: 25px;
+    left: -11px;
+    top: 0;
+    position: absolute;
+    transform: skew(-15deg);
+}
+
 .social-logo {
 	margin-left: 50px;
 }
